@@ -1,9 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Korn's Portfolio</title>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: yellowgreen;
+    }
+    
+    .active {
+      background-color: pink;
+    }
+    </style>
+</head>
+<body>
+  <h1 class="center-header">Korn's Portfolio</h1>
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/exp.html">Experience & Project</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+    <li style="float:right"><a class="active" href="./miniheart.html">Mini heart</a></li>
+  </ul>
+
+    <img
+      src="./image\IMG_5721.jpg"
+      height="225px"
+      width="150px"
+      style="margin-left: auto; display: block; margin-right: auto"
+    />
+    <h3 class="center-header">Korn Sriwattana</h3>
+    <p style="text-align: center">
+      Hi my name is Khawsoy.I'm sophomore student at faculty of engineering CMU.
+    </p>
+
+    <h3 class="center-header">Skills</h3>
+    <div class="skill-container">
+      <h3>Programming skill</h3>
+      <p>I have experience coding Scratch,C++. Now I'm studying HTML,CSS and JavaScript</p>
+    </div>
+
+    <div class="skill-container">
+      <h3>Language skill</h3>
+      <p>I can speak Thai,English,Chinese,Spanish,Kam-muang(Northern Thai language)</p>
+    </div>
+
+    <div class="skill-container">
+      <h3>Pill gulping skill</h3>
+      <p>I can gulp a pill by drinking no water</p>
+    </div>
+
+</body>
 </html>

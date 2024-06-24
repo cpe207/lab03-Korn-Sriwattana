@@ -1,0 +1,20 @@
+.center-header {
+    color:black;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .skill-container {
+    border: solid yellowgreen;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-container > h3 {
+    color: green;
+    font-style: italic;
+  }
+  
