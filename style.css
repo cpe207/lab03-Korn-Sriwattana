@@ -4,7 +4,7 @@
     font-style: italic;
   }
   
-  .skill-container {
+.skill-container {
     border: solid yellowgreen;
     width: 500px;
     margin-left: auto;
@@ -13,7 +13,7 @@
     margin-bottom: 10px;
   }
   
-  .skill-container > h3 {
+.skill-container > h3 {
     color: green;
     font-style: italic;
   }
@@ -45,5 +45,16 @@
   .active {
     background-color: pink;
   }
+  .circular-image {
+    width: 250px; /* Set the width and height to the desired size */
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%; /* This makes the container circular */
+}
 
+.circular-image img {
+    width: 100%; /* Make sure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+}
   
