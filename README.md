@@ -7,4 +7,4 @@
 
 นายกรณ์ ศรีวัฒนะ 660610738
 
-<strong>GITHUB PAGE URL : https://cpe207.github.io/lab03-Korn-Sriwattana/index.html</strong>
+<strong>GITHUB PAGE URL : https://cpe207.github.io/lab03-Korn-Sriwattana/</strong>
